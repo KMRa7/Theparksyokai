@@ -629,7 +629,7 @@
             // LINEトークにメッセージを送信
             liff.sendMessages([{
                 type: 'text',
-                text: `≪アンケート≫\n【お名前】\n・${formData.message}\n\n【ご性別】\n・${formData.oneCount}\n\n【どこでTHE PARK.を知りましたか？】\n・${formData.message2}`
+                text: `≪初回登録アンケート≫\n【お名前】\n・${formData.message}\n\n【ご性別】\n・${formData.oneCount}\n\n【どこでTHE PARK.を知りましたか？】\n・${formData.message2}`
             }]).then(() => {
                 /* メッセージ送信成功時の処理 */
                 alert('ご記入ありがとうございます。');
